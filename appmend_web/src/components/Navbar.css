@@ -1,0 +1,30 @@
+@import url('http://fonts.cdnfonts.com/css/circular-std');
+
+
+
+
+.navbar{
+    display: flex;
+    height: 72px;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-items{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 165px;
+    list-style: none;
+}
+.navbar ul li{
+    margin-left: 32px;
+    font-size: 14px;
+    font-family: 'circular std';
+    cursor: pointer;
+    font-weight: 400;
+
+}
+.logo{
+    margin-left: 165px;
+    height: 44px;
+    width:164px;
+}
