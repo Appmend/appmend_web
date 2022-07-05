@@ -5,7 +5,7 @@ import logo from '../static/Logo.svg'
 const Navbar = () =>{
     return(
         <>
-            <section className="header">
+            <div className="header">
                 <nav className="navbar">
                     <img className="logo" src ={logo} alt="logo"/>
                     <ul className="nav-items">
@@ -16,7 +16,7 @@ const Navbar = () =>{
                     </ul>
                 </nav>
 
-            </section>
+            </div>
             
         </>
         

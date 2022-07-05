@@ -1,0 +1,90 @@
+@import url('http://fonts.cdnfonts.com/css/circular-std');
+.steps{
+    width: 100%;
+    height: 873px;
+}
+.steps-content{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: flex-end;
+    width: 1110px;
+    height: 582px;
+    margin-left: 13%;
+    margin-top: 85px;
+}
+.steps-heading p{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 445px;
+    height: 104px;
+    font-size: 48px;
+    font-family: "circular std";
+    font-weight: 700;
+}
+.steps-heading img{
+    width: 445px;
+    height: 461px;
+    background: #F6F9FF;
+    border-radius: 8px;
+    margin-top: 24px;
+}
+.steps-types{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 635px;
+    height: 461px;
+    font-family: "circular std";
+    margin-top: 30px;
+    margin-left: 5%;
+}
+.patients{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 635px;
+    height: 230.5px;
+    background: #6210CC;
+  
+}
+.patients img{
+    margin-left: 80px;
+}
+.patients div{
+    display: flex;
+    flex-direction: column;
+    padding: 48px 80px;
+    color: white;
+}
+.type-heading{
+    font-size: 14px;
+    font-weight: 400px;
+    line-height: 18px;
+}
+.type-description{
+    font-size: 14px;
+    font-weight: 400px;
+    line-height: 18px;
+    margin-top: 8px;
+}
+.doctors{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 635px;
+    height: 230.5px;
+    background: #F1E4FF;
+
+}
+.doctors img{
+    margin-left: 80px;
+
+}
+.doctors div{
+    display: flex;
+    flex-direction: column;
+
+    padding: 48px 80px;
+}

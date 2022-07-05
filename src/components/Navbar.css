@@ -5,14 +5,18 @@
 
 .navbar{
     display: flex;
+    flex-direction: row;
     height: 72px;
+    width: 100%;
     justify-content: space-between;
     align-items: center;
+    position: fixed;
+
 }
-.nav-items{
+.navbar ul{
     display: flex;
     justify-content: space-between;
-    margin-right: 165px;
+    margin-right: 10%;
     list-style: none;
 }
 .navbar ul li{
@@ -23,8 +27,8 @@
     font-weight: 400;
 
 }
-.logo{
-    margin-left: 165px;
+.navbar img{
+    margin-left: 11%;
     height: 44px;
     width:164px;
 }

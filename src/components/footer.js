@@ -1,7 +1,7 @@
 import React from "react";
 import './Footer.css'
 import flogo from '../static/flogo.svg'
-import sociallinks from '../static/Sociallinks.png'
+
 
 
 const Footer = () => {
@@ -11,7 +11,14 @@ const Footer = () => {
                 <div className="company-info">
                     <img className="flogo" src={flogo} alt="logo"/>
                     <p className="copyright">© 2021 Appmend Inc. All rights reserved</p>
-                    <img className="sociallinks" src={sociallinks} alt="sociallinks"/>
+                    <div className="sociallinks">
+                        <i class="fa-brands fa-instagram"></i>
+                        <i class="fa-solid fa-globe"></i>
+                        <i class="fa-brands fa-twitter"></i>
+                        <i class="fa-brands fa-youtube"></i>
+
+                    </div>
+                    
 
                 </div>
                 <div className="links">

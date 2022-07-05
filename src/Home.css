@@ -4,5 +4,6 @@
     height: 866px;
     width: 100%;
     background-attachment: scroll;
+    flex: 1;
 
 }

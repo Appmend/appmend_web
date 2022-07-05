@@ -1,0 +1,63 @@
+@import url('http://fonts.cdnfonts.com/css/circular-std');
+
+.install{
+    display: flex;
+    width: auto;
+    height: 580px;
+    
+    
+}
+.intsall-content{
+    width: 506px;
+    height: 184px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 198px;
+    margin-left: 11%;
+    font-family: "circular std";
+    
+    
+}
+.install-text{
+    font-size: 48px;
+    font-weight: 700;
+}
+.install-description{
+    font-size: 18px;
+    font-weight: 400px;
+    line-height: 32px;
+    margin-top: 16px;
+}
+.install-screen{
+    margin-top: 90px;
+    margin-left: 12%;
+}
+.install-screen2{
+    margin-top: 90px;
+    margin-left: 130px;
+   
+}
+.install-screen img{
+    width: 524px;
+    height: 400px;
+    
+}
+.install-screen2 img{
+    width: 524px;
+    height: 400px;
+    
+}
+.intsall-contentII{
+    width: 506px;
+    height: 184px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    order: 2;
+    margin-top: 198px;
+    margin-left: 12%;
+    font-family: "circular std";
+    
+}
+

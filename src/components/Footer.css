@@ -28,10 +28,17 @@
     margin-top: 10px;
     
 }
-.sociallinks{
+.sociallinks {
+    display: flex;
+    justify-content: space-between;
+    width: 176x;
     height: 32px;
-    width: 176px;
     margin-top: 32px;
+}
+.sociallinks i{
+    height: 32px;
+    width: 32px;
+    color: white;
 }
 
 .links{
