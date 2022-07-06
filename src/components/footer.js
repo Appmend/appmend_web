@@ -16,13 +16,9 @@ const Footer = () => {
                         <i class="fa-solid fa-globe"></i>
                         <i class="fa-brands fa-twitter"></i>
                         <i class="fa-brands fa-youtube"></i>
-
                     </div>
-                    
-
                 </div>
                 <div className="links">
-
                     <div className="col1">
                         <p className="list-heading">Company</p>
                         <ul>

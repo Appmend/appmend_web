@@ -2,8 +2,7 @@
     background: url('./static/Background.svg') no-repeat center;
     background-size: cover;
     height: 866px;
-    width: 100%;
+    width: auto;
     background-attachment: scroll;
-    flex: 1;
 
 }

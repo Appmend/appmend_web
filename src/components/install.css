@@ -4,60 +4,125 @@
     display: flex;
     width: auto;
     height: 580px;
-    
-    
+
 }
 .intsall-content{
-    width: 506px;
+    width: 45%;
     height: 184px;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    margin-top: 198px;
+    margin-top: 10%;
     margin-left: 11%;
-    font-family: "circular std";
-    
-    
+    font-family: "circular std";  
 }
 .install-text{
     font-size: 48px;
     font-weight: 700;
+    line-height: 50px;
 }
 .install-description{
-    font-size: 18px;
+    font-size: 17px;
     font-weight: 400px;
     line-height: 32px;
-    margin-top: 16px;
+    margin-top: 1%;
 }
 .install-screen{
-    margin-top: 90px;
-    margin-left: 12%;
-}
-.install-screen2{
-    margin-top: 90px;
-    margin-left: 130px;
-   
+    margin-top: 7%;
+    margin-left: 3%;
+    margin-right: 8%;
 }
 .install-screen img{
     width: 524px;
     height: 400px;
     
 }
-.install-screen2 img{
-    width: 524px;
-    height: 400px;
-    
+
+
+@media(max-width:1024px){
+
+    .install-text{
+        font-size: 40px;
+        font-weight: 700;
+        line-height: 40px;
+    }
+    .install-description{
+        font-size: 12px;
+        font-weight: 400px;
+        line-height: 25px;
+        margin-top: 1%;
+    }
+    .install-screen{
+        margin-top: 7%;
+        margin-left: 5%;
+        margin-right: 2%;
+    }
+    .install-screen img{
+        width: auto;
+        height: 350px;
+    }
 }
-.intsall-contentII{
-    width: 506px;
-    height: 184px;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    order: 2;
-    margin-top: 198px;
-    margin-left: 12%;
-    font-family: "circular std";
-    
+@media (max-width:768px){
+    .install{
+        display: flex;
+        flex-direction: column;
+       }
+    .intsall-content{
+        width: 75%;
+        height: 184px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        text-align: center;
+        margin-top: 2%;
+        margin-left: 12%;
+        font-family: "circular std";  
+    }
+    .install-text{
+        font-size: 40px;
+        font-weight: 700;
+        line-height: 40px;
+    }
+    .install-description{
+        font-size: 12px;
+        font-weight: 400px;
+        line-height: 25px;
+        margin-top: 1%;
+    }
+    .install-screen{
+        margin-top: 5%;
+        margin-left: 20%;
+        margin-right: 2%;
+    }
+    .install-screen img{
+        width: auto;
+        height: 350px;
+    }
 }
+@media(max-width:480px){
+    .intsall-content{
+        width: 75%;
+        height: 184px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        text-align: center;
+        margin-top: 10%;
+        margin-left: 12%;
+        font-family: "circular std";  
+    }
+    .install-text{
+        font-size: 30px;
+    }
+    .install-screen{
+        margin-top: 50%;
+        margin-left: 5%;
+        margin-right: 2%;
+    }
+    .install-screen img{
+        width: auto;
+        height: 250px;
+    }
+}
+
 
