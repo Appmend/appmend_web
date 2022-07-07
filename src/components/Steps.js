@@ -9,10 +9,9 @@ export default function Steps(){
         <div className="steps">
             <div className="steps-content">
                 <div className="steps-heading">
-                    <p >Install the device few easy steps.</p>
+                    <p >Install the app in few easy steps.</p>
                     <img src={phone} alt="phone"/>
                 </div>
-                
                 <div className="steps-types">
                     <div className="patients">
                         <img src={patientcircle} alt=""/>

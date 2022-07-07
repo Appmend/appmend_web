@@ -109,20 +109,41 @@
     font-family: 'circular std';
     margin-left: 30px;
 }
-.col3 input{
-    width: 255px;
+/* .col3 input{
+    width: auto;
     height: 40px;
     border-radius: 8px;
     margin-top: 24px;
     background: #FFFFFF;
     opacity: 0.2;
     border-radius: 8px;
+} */
+.col3 form{
+    background:#FFFFFF;
+    opacity: 0.2;
+    height: 30px;
+    width: 100%;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+}
+.col3 input{
+    border: none;
+    text-decoration: none;
+    border-radius: 8px;
+    outline: none;
+    margin-left: 2%;
+    width: auto;
+}
+.col3 button{
+    border: none;
+    background: transparent;
+    margin-right: 7%;
 }
 .col3 input::placeholder{
     position: relative;
     left: 6.27%;
     right: 47.06%;
-
     font-family: 'Circular Std';
     font-style: normal;
     font-weight: 400;
@@ -173,6 +194,14 @@
     .col3{
         margin-left: 15%;
     }
+    .col3 form{
+        height: 30px;
+        width: 100%;
+    }
+    .col3 input{
+        width: 200px;
+        height: 30px;
+    }
 }
 @media(max-width:768px){
     .flogo{
@@ -202,18 +231,16 @@
         line-height: 20px;   
     }
     .col2{
-        width: 70px;
+        width: auto;
     }
     .col2 ul li{
      margin-top: 3px;   
     }
     .col3{
-        margin-left: 20%;
+        margin-left: 10%;
     }
-    .col3 input{
-        width: 200px;
-        height: auto;
-        margin-top: 5px;
+    .col3 form{
+
     }
 }
 @media(max-width:480px){

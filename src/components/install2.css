@@ -136,11 +136,11 @@ display: flex;
     }
     .install2 .install-screen2{
         margin-top: 5%;
-        margin-left: 12%;
+        margin-left: 11%;
     }
     .install-screen2 img{
         width: auto;
-        height: 190px;
+        height: 220px;
         
     }
 }

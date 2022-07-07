@@ -44,7 +44,11 @@ const Footer = () => {
                     
                     <div className="col3">
                         <p className="list-heading">Stay up to date</p>
-                        <input placeholder="Your email address"/>
+                        <form>
+                            <input placeholder="Your email address"/>
+                            <button><i class="fa-solid fa-paper-plane"></i></button>
+                        </form>
+
                     </div>
                 </div>
             </div>      

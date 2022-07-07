@@ -15,10 +15,15 @@ function App() {
     <Home/>
     <Install/>
     <InstallSecond/>
+    <Steps/>
     <Footer/>
+
+
+    
+
+
+
       {/*
-      <Section2/>
-      <Steps/>
       <Testimonial/>
       <Manage/>
        */}
