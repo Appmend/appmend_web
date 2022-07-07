@@ -12,11 +12,10 @@ import InstallSecond from "./components/Install2";
 function App() {
   return (
     <>
-      <Navbar/>
-      <Content/>
-      <Install/>
-      <InstallSecond/>
-      <Footer/>
+    <Home/>
+    <Install/>
+    <InstallSecond/>
+    <Footer/>
       {/*
       <Section2/>
       <Steps/>

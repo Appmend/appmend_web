@@ -104,9 +104,9 @@ display: flex;
         flex-direction: column;
         align-items: flex-start;
         text-align: center;
-        margin-top: 30%;
+        margin-top: 10%;
         margin-left: 11%;
-        margin-bottom: 60%;
+        margin-bottom: 50%;
         font-family: "circular std";
         order: 1;
 
@@ -115,12 +115,32 @@ display: flex;
         font-size: 30px;
     }
     .install2 .install-screen2{
-        margin-top: 10%;
-        margin-left: 4%;
+        margin-top: 4%;
+        margin-left: 16%;
     }
     .install-screen2 img{
         width: auto;
-        height: 250px;
+        height: 200px;
+        
+    }
+}
+@media(max-width:390px){
+    .install2 .intsall-contentII{
+        margin-top: 10%;
+        margin-left: 11%;
+        margin-bottom: 40%;
+    }
+    .install-text2{
+        font-size: 25px;
+        line-height: 35px;
+    }
+    .install2 .install-screen2{
+        margin-top: 5%;
+        margin-left: 12%;
+    }
+    .install-screen2 img{
+        width: auto;
+        height: 190px;
         
     }
 }

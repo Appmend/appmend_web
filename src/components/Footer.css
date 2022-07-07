@@ -77,6 +77,9 @@
     font-weight: 400;
     color: white;
 }
+.main-col{
+    display: flex;
+}
 .col2{
     display: flex;
     flex-direction: column;
@@ -223,10 +226,10 @@
         align-items: flex-start;
     }
     .flogo{
-        height: 50px;
+        height: 40px;
     }
     .copyright{
-        font-size: large;
+        font-size: 14px;
         line-height: 30px;
         margin-top: 15px;
     }
@@ -244,30 +247,34 @@
     .links{
         display: flex;
         flex-direction: column;
-        margin-top: 30px;
+        margin-top: 22px;
     }
     .col1{
         width: 100%;
     }
+    .col1 ul{
+        margin-top: 4px;
+    }
     .col1 ul li{
-        font-size: large;
-        line-height: 30px;
+        font-size: 12px;
+        line-height: 27.5px;
     }
     .list-heading{
-        font-size: 25px;
+        font-size: 20px;
     }
     .col2{
-        margin-left: 0px;
+        margin-left: 40px;
     }
     .col2 ul{
+        margin-top: 4px;
         width: 100px;
     }
     .col2 ul li{
-        font-size: large;
-        line-height: 30px;
+        font-size: 12px;
+        line-height: 25px;
     }
     .col3{
-        margin-top: 50%;
+        margin-top: 3%;
         margin-left: 0px;
     }
 }

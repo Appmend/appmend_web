@@ -114,14 +114,32 @@
     .install-text{
         font-size: 30px;
     }
+    .install-description{
+        font-size: 12px;
+    }
     .install-screen{
-        margin-top: 50%;
-        margin-left: 5%;
+        margin-top: 35%;
+        margin-left: 17%;
         margin-right: 2%;
     }
     .install-screen img{
         width: auto;
-        height: 250px;
+        height: 200px;
+    }
+}
+@media(max-width:390px){
+    .install-text{
+        font-size: 25px;
+        line-height: 35px;
+    }
+    .install-screen{
+        margin-top: 45%;
+        margin-left: 12%;
+        margin-right: 7%;
+    }
+    .install-screen img{
+        width: auto;
+        height: 200px;
     }
 }
 

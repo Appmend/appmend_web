@@ -19,6 +19,7 @@ const Footer = () => {
                     </div>
                 </div>
                 <div className="links">
+                    <div className="main-col">
                     <div className="col1">
                         <p className="list-heading">Company</p>
                         <ul>
@@ -39,6 +40,8 @@ const Footer = () => {
                             <li>Status</li>
                         </ul>
                     </div>
+                    </div>
+                    
                     <div className="col3">
                         <p className="list-heading">Stay up to date</p>
                         <input placeholder="Your email address"/>

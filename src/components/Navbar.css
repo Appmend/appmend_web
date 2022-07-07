@@ -3,31 +3,116 @@
 
 
 
-.navbar{
-
+.header .navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
     height: 72px;
     width: 100%;
-    position: fixed;
-
 }
-.nav-items{
-    margin-left: 60%;
+.navbar.active{
+    background-color: #F3F8FF;
 }
-.navbar ul{
+.navbar .nav-items{
+   display: flex;
+    margin-right: 11%;
+}
+.nav-items ul{
     display: flex;
-    justify-content: space-between;
     list-style: none;
+    margin-top: 20px;
+
 }
 .navbar ul li{
+    font-family: 'circular std';
+    font-weight: 400;
     margin-left: 32px;
     font-size: 14px;
-    font-family: 'circular std';
+    line-height: 20px;
     cursor: pointer;
-    font-weight: 400;
+}
+.nav-items button{
+    display: none;
+    background: transparent;
+    border: none;
 
 }
-.navbar img{
+.nav-items #hidden{
+    display: none;
+}
+.logo{
+    height: 32px;
+    width: auto;
     margin-left: 11%;
-    height: 44px;
-    width:164px;
+}
+
+@media (max-width:1024px){
+    .logo{
+        height: 25px;
+        width: auto;
+    }
+    .nav-items ul li{
+        font-size: 12px;
+    }
+}
+@media(max-width:768px){
+    .navbar{
+        z-index: 999;
+    }
+    .nav-items ul{
+        display: none;
+    }
+    .nav-items button{
+        display: flex;
+    }
+    .nav-items #hidden{
+        background-color: #F3F8FF;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        position: fixed;
+        left: 0px;
+        top: 50px;
+        height: auto;
+        width: 100%;
+        transition: all .5s ease-in-out;
+        z-index: -888;
+
+    }
+    .nav-items #hidden1{
+        background-color: #F3F8FF;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        position: fixed;
+        top: -100vh;
+        height: auto;
+        width: 100%;
+    }
+    .nav-items #hidden li{
+        margin-top: 20px;
+        margin-bottom: 20px;
+        margin-right: 7%;
+        font-size: 25px;
+    }
+}
+@media(max-width:480px){
+    .navbar{
+        height: 50px;
+    }
+    .logo{
+        height: 20px;
+        margin-left: 10%;
+    }
+    .nav-items button{
+        height: 20px;
+    }
+    .nav-items #hidden li{
+        margin-top: 15px;
+        margin-bottom: 15px;
+        margin-right: 20%;
+        font-size: 22px;
+    }
 }

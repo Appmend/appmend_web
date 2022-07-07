@@ -6,7 +6,7 @@ import Content from "./components/Content"
 export default function Home(){
     return(
         <section className="Body">
-           
+            <Navbar/>
             <Content/>
         </section>
     )
