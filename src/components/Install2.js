@@ -1,6 +1,6 @@
 import React from "react";
 import "./install2.css";
-import installscreen from "../static/MockCreative.svg";
+import installscreen from "../static/Mock Creative.svg";
 
 export default function InstallSecond(){
     return(
@@ -13,8 +13,6 @@ export default function InstallSecond(){
                 <p className="install-description2">Doctors can get all the information with respect to the complaints of the patients when they book an appointment. 
                     App will also provide some remedy recommendations for every case. Patient records are digitally stored for future reference.</p>
             </div>
-           
-
         </div>
     )
 }
