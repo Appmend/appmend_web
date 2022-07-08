@@ -24,8 +24,6 @@ const Navbar = () =>{
                         <ul id={showItems ? "hidden":"hidden1"}>
                             <li>About</li>
                             <li>Products</li>
-                            <li>Blog</li>
-                            <li>Careers</li>
                         </ul>
                         <button onClick={() => setShowItems(!showItems)}><i class="fa-solid fa-bars"></i></button>
                     </div>
