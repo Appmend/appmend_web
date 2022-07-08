@@ -69,10 +69,11 @@
     }
     .nav-items #hidden{
         background-color: #0B0D17;
+        opacity: 0.9;
         display: flex;
         flex-direction: column;
         justify-content: center;
-        align-items: center;
+        align-items:left;
         position: fixed;
         left: 0px;
         top: -2.5%;
@@ -94,9 +95,9 @@
     }
     .nav-items #hidden li{
         margin-top: 5%;
-        margin-right: 9%;
-        font-size: 25px;
+        font-size: 20px;
         color: aliceblue;
+        margin-left: 7%;
 
     }
     .nav-items button{
@@ -117,7 +118,31 @@
     .nav-items #hidden li{
         margin-top: 15px;
         margin-bottom: 15px;
-        margin-right: 17%;
-        font-size: 22px;
+        font-size: 16px;
+        margin-left: 4%;
+    }
+}
+@media(max-width:390px){
+    .nav-items #hidden{
+        background-color: #0B0D17;
+        opacity: .9;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items:left;
+        position: fixed;
+        left: 0px;
+        top: -3%;
+        height: 250px;
+        width: 100%;
+        transition: all .5s ease-in-out;
+        z-index: -888;
+
+    }
+    .nav-items #hidden li{
+        margin-top: 20px;
+        margin-bottom: 20px;
+        font-size: 16px;
+        margin-left: 2.5%;
     }
 }
