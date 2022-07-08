@@ -8,7 +8,7 @@
     width: 100%;
     margin-top: 10%;
     background-color: #0B0D17;
-    font-family: 'circular std';
+    font-family: 'Noto Sans', sans-serif;
 }
 .company-info{
     display: flex;
@@ -23,7 +23,7 @@
     width: 165px;
 }
 .copyright{
-    font-family: 'circular std';
+    font-family: 'Noto Sans', sans-serif;
     color: #D9DBE1;
     font-weight: 400;
     font-size: 14px;
@@ -58,7 +58,7 @@
     align-items: flex-start;
     width: 160px;
     height: 232px;
-    font-family: 'circular std';
+    font-family: 'Noto Sans', sans-serif;
     list-style: none;
 }
 
@@ -87,7 +87,7 @@
     align-items: flex-start;
     width: 160px;
     height: 232px;
-    font-family: 'circular std';
+    font-family: 'Noto Sans', sans-serif;
     margin-left: 30px;
 }
 .col2 ul{
@@ -107,7 +107,7 @@
     align-items: flex-start;
     width: 255px;
     height: 94px;
-    font-family: 'circular std';
+    font-family: 'Noto Sans', sans-serif;
     margin-left: 30px;
 }
 /* .col3 input{
@@ -145,7 +145,7 @@
     position: relative;
     left: 6.27%;
     right: 47.06%;
-    font-family: 'Circular Std';
+    font-family: 'Noto Sans', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
