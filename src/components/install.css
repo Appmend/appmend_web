@@ -1,4 +1,4 @@
-@import url('http://fonts.cdnfonts.com/css/circular-std');
+@import url('https://cdn.jsdelivr.net/npm/@vetixy/circular-std@1.0.0/dist/index.min.css');
 
 .install{
     display: flex;

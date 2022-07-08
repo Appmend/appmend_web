@@ -22,8 +22,8 @@ const Navbar = () =>{
                     <img className="logo" src ={logo} alt="logo"/>
                     <div className="nav-items" >
                         <ul id={showItems ? "hidden":"hidden1"}>
-                            <li>About</li>
-                            <li>Products</li>
+                            <li><a href="#content">About</a></li>
+                            <li><a href="#steps">Products</a></li>
                         </ul>
                         <button onClick={() => setShowItems(!showItems)}><i class="fa-solid fa-bars"></i></button>
                     </div>

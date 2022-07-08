@@ -6,7 +6,7 @@ import doctorcircle from "../static/Feature Icon with circle.svg"
 
 export default function Steps(){
     return(
-        <div className="steps">
+        <div className="steps" id="steps">
             <div className="steps-content">
                 <div className="steps-heading">
                     <p >Install the app in few easy steps.</p>
