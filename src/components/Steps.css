@@ -42,7 +42,7 @@
     align-items: flex-start;
     width: 60%;
     height: auto;
-    font-family: "circular std";
+    font-family: 'Noto Sans', sans-serif;
     margin-left: 4%;
 }
 .patients{
@@ -110,7 +110,6 @@
         align-items: flex-start;
         width: 60%;
         height: auto;
-        font-family: "circular std";
         margin-left: 5%;
     }
 

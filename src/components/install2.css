@@ -49,7 +49,6 @@ display: flex;
         align-items: flex-start;
         margin-top: 6%;
         margin-left: 4%;
-        font-family: "circular std";
     }
     .install-screen2{
         margin-top: 4%;
@@ -92,7 +91,6 @@ display: flex;
         margin-top: 9%;
         margin-left: 11%;
         margin-bottom: 5%;
-        font-family: "circular std";
 
     }
 }
@@ -111,7 +109,6 @@ display: flex;
         margin-top: 10%;
         margin-left: 11%;
         margin-bottom: 50%;
-        font-family: "circular std";
         order: 1;
 
     }

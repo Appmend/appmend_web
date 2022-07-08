@@ -75,8 +75,7 @@
         align-items: flex-start;
         text-align: center;
         margin-top: 2%;
-        margin-left: 12%;
-        font-family: "circular std";  
+        margin-left: 12%; 
     }
     .install-text{
         font-size: 40px;
@@ -109,7 +108,6 @@
         text-align: center;
         margin-top: 10%;
         margin-left: 12%;
-        font-family: "circular std";  
     }
     .install-text{
         font-size: 30px;
