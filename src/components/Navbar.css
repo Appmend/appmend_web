@@ -12,6 +12,7 @@
     height: 72px;
     width: 100%;
     font-family: 'Noto Sans', sans-serif;
+    z-index: 1;
 }
 .navbar.active{
     background-color: #F3F8FF;

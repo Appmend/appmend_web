@@ -9,12 +9,14 @@ import Manage from "./components/Manage";
 import Navbar from "./components/Navbar";
 import Install from "./components/install";
 import InstallSecond from "./components/Install2";
+import TabSection from "./components/Tabs";
 function App() {
   return (
     <>
     <Home/>
     <Install/>
     <InstallSecond/>
+    <TabSection/>
     <Steps/>
     <Footer/>
 
