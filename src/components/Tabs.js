@@ -5,14 +5,28 @@ import './Tabs.css'
 
 export default function TabSection() {
     const [tab, setTab] = useState(true)
+    const $buttons = document.querySelectorAll('.switch__option');
+    const $switch = document.querySelector('.switch');
+
+    $buttons[0].addEventListener('click', e => {
+        $switch.classList.add('on');
+    })
+
+    $buttons[1].addEventListener('click', e => {
+        $switch.classList.remove('on');
+    })
+
     return (
         <div className='TabDiv' >
             <div className='TabDiv1'>
                 <p >Save time managing social</p><p> media for your business</p>
             </div>
-            <div className='TabDiv3' >
-                <button className='btn' onClick={() => setTab(true)}>Patient</button>
-                <button className='btn' onClick={() => setTab(false)}>Doctor</button>
+            <div className='TabDiv3'>
+                <ul class="switch on">
+                    <li class="switch__option option1" onClick={() => setTab(true)}>Patient</li>
+                    <li class="switch__option option2" onClick={() => setTab(false)}>Doctor</li>
+                </ul>
+
 
             </div>
             {tab ? (<div className='TabDiv2'>
@@ -22,15 +36,15 @@ export default function TabSection() {
                             <path d="M8 2a.5.5 0 0 1 .5.5V4a.5.5 0 0 1-1 0V2.5A.5.5 0 0 1 8 2zM3.732 3.732a.5.5 0 0 1 .707 0l.915.914a.5.5 0 1 1-.708.708l-.914-.915a.5.5 0 0 1 0-.707zM2 8a.5.5 0 0 1 .5-.5h1.586a.5.5 0 0 1 0 1H2.5A.5.5 0 0 1 2 8zm9.5 0a.5.5 0 0 1 .5-.5h1.5a.5.5 0 0 1 0 1H12a.5.5 0 0 1-.5-.5zm.754-4.246a.389.389 0 0 0-.527-.02L7.547 7.31A.91.91 0 1 0 8.85 8.569l3.434-4.297a.389.389 0 0 0-.029-.518z" />
                             <path fill-rule="evenodd" d="M6.664 15.889A8 8 0 1 1 9.336.11a8 8 0 0 1-2.672 15.78zm-4.665-4.283A11.945 11.945 0 0 1 8 10c2.186 0 4.236.585 6.001 1.606a7 7 0 1 0-12.002 0z" />
                         </svg>
-                        <h4>Prescribe Fast</h4>
-                        <p>it is a long established fact that a reader</p>
+                        <h4 id='chead'>Prescribe Fast</h4>
+                        <p id='cpara'>it is a long established fact that a reader</p>
                     </div>
                     <div className='card cardData'>
                         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-person" viewBox="0 0 16 16">
                             <path d="M8 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm2-3a2 2 0 1 1-4 0 2 2 0 0 1 4 0zm4 8c0 1-1 1-1 1H3s-1 0-1-1 1-4 6-4 6 3 6 4zm-1-.004c-.001-.246-.154-.986-.832-1.664C11.516 10.68 10.289 10 8 10c-2.29 0-3.516.68-4.168 1.332-.678.678-.83 1.418-.832 1.664h10z" />
                         </svg>
-                        <h4>Manage Appoinments</h4>
-                        <p>it is a long established fact that a reader</p>
+                        <h4 id='chead'>Manage Appoinments</h4>
+                        <p id='cpara'>it is a long established fact that a reader</p>
                     </div>
                     <div className='card cardData'>
                         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-clock-history" viewBox="0 0 16 16">
@@ -38,8 +52,8 @@ export default function TabSection() {
                             <path d="M8 1a7 7 0 1 0 4.95 11.95l.707.707A8.001 8.001 0 1 1 8 0v1z" />
                             <path d="M7.5 3a.5.5 0 0 1 .5.5v5.21l3.248 1.856a.5.5 0 0 1-.496.868l-3.5-2A.5.5 0 0 1 7 9V3.5a.5.5 0 0 1 .5-.5z" />
                         </svg>
-                        <h4>Patient History</h4>
-                        <p>it is a long established fact that a reader</p>
+                        <h4 id='chead'>Patient History</h4>
+                        <p id='cpara'>it is a long established fact that a reader</p>
                     </div>
                 </div>
                 <div className='row2'>
@@ -49,15 +63,15 @@ export default function TabSection() {
                             <path d="M8 2a.5.5 0 0 1 .5.5V4a.5.5 0 0 1-1 0V2.5A.5.5 0 0 1 8 2zM3.732 3.732a.5.5 0 0 1 .707 0l.915.914a.5.5 0 1 1-.708.708l-.914-.915a.5.5 0 0 1 0-.707zM2 8a.5.5 0 0 1 .5-.5h1.586a.5.5 0 0 1 0 1H2.5A.5.5 0 0 1 2 8zm9.5 0a.5.5 0 0 1 .5-.5h1.5a.5.5 0 0 1 0 1H12a.5.5 0 0 1-.5-.5zm.754-4.246a.389.389 0 0 0-.527-.02L7.547 7.31A.91.91 0 1 0 8.85 8.569l3.434-4.297a.389.389 0 0 0-.029-.518z" />
                             <path fill-rule="evenodd" d="M6.664 15.889A8 8 0 1 1 9.336.11a8 8 0 0 1-2.672 15.78zm-4.665-4.283A11.945 11.945 0 0 1 8 10c2.186 0 4.236.585 6.001 1.606a7 7 0 1 0-12.002 0z" />
                         </svg>
-                        <h4>Prescribe Fast</h4>
-                        <p>it is a long established fact that a reader</p>
+                        <h4 id='chead'>Prescribe Fast</h4>
+                        <p id='cpara'>it is a long established fact that a reader</p>
                     </div>
                     <div className='card cardData'>
                         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-person" viewBox="0 0 16 16">
                             <path d="M8 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm2-3a2 2 0 1 1-4 0 2 2 0 0 1 4 0zm4 8c0 1-1 1-1 1H3s-1 0-1-1 1-4 6-4 6 3 6 4zm-1-.004c-.001-.246-.154-.986-.832-1.664C11.516 10.68 10.289 10 8 10c-2.29 0-3.516.68-4.168 1.332-.678.678-.83 1.418-.832 1.664h10z" />
                         </svg>
-                        <h4>Manage Appoinments</h4>
-                        <p>it is a long established fact that a reader</p>
+                        <h4 id='chead'>Manage Appoinments</h4>
+                        <p id='cpara'>it is a long established fact that a reader</p>
                     </div>
                     <div className='card cardData'>
                         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-clock-history" viewBox="0 0 16 16">
@@ -65,8 +79,8 @@ export default function TabSection() {
                             <path d="M8 1a7 7 0 1 0 4.95 11.95l.707.707A8.001 8.001 0 1 1 8 0v1z" />
                             <path d="M7.5 3a.5.5 0 0 1 .5.5v5.21l3.248 1.856a.5.5 0 0 1-.496.868l-3.5-2A.5.5 0 0 1 7 9V3.5a.5.5 0 0 1 .5-.5z" />
                         </svg>
-                        <h4>Patient History</h4>
-                        <p>it is a long established fact that a reader</p>
+                        <h4 id='chead'>Patient History</h4>
+                        <p id='cpara'>it is a long established fact that a reader</p>
                     </div>
                 </div>
             </div>) : (<div className='TabDiv2'>
@@ -76,15 +90,15 @@ export default function TabSection() {
                             <path d="M8 2a.5.5 0 0 1 .5.5V4a.5.5 0 0 1-1 0V2.5A.5.5 0 0 1 8 2zM3.732 3.732a.5.5 0 0 1 .707 0l.915.914a.5.5 0 1 1-.708.708l-.914-.915a.5.5 0 0 1 0-.707zM2 8a.5.5 0 0 1 .5-.5h1.586a.5.5 0 0 1 0 1H2.5A.5.5 0 0 1 2 8zm9.5 0a.5.5 0 0 1 .5-.5h1.5a.5.5 0 0 1 0 1H12a.5.5 0 0 1-.5-.5zm.754-4.246a.389.389 0 0 0-.527-.02L7.547 7.31A.91.91 0 1 0 8.85 8.569l3.434-4.297a.389.389 0 0 0-.029-.518z" />
                             <path fill-rule="evenodd" d="M6.664 15.889A8 8 0 1 1 9.336.11a8 8 0 0 1-2.672 15.78zm-4.665-4.283A11.945 11.945 0 0 1 8 10c2.186 0 4.236.585 6.001 1.606a7 7 0 1 0-12.002 0z" />
                         </svg>
-                        <h4>Prescribe Fast</h4>
-                        <p>it is a long established fact that a reader</p>
+                        <h4 id='chead'>Prescribe Fast</h4>
+                        <p id='cpara'>it is a long established fact that a reader</p>
                     </div>
                     <div className='card cardData'>
                         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-person" viewBox="0 0 16 16">
                             <path d="M8 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm2-3a2 2 0 1 1-4 0 2 2 0 0 1 4 0zm4 8c0 1-1 1-1 1H3s-1 0-1-1 1-4 6-4 6 3 6 4zm-1-.004c-.001-.246-.154-.986-.832-1.664C11.516 10.68 10.289 10 8 10c-2.29 0-3.516.68-4.168 1.332-.678.678-.83 1.418-.832 1.664h10z" />
                         </svg>
-                        <h4>Prescribe Fast</h4>
-                        <p>it is a long established fact that a reader</p>
+                        <h4 id='chead'>Prescribe Fast</h4>
+                        <p id='cpara'>it is a long established fact that a reader</p>
                     </div>
                     <div className='card cardData'>
                         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-clock-history" viewBox="0 0 16 16">
@@ -92,8 +106,8 @@ export default function TabSection() {
                             <path d="M8 1a7 7 0 1 0 4.95 11.95l.707.707A8.001 8.001 0 1 1 8 0v1z" />
                             <path d="M7.5 3a.5.5 0 0 1 .5.5v5.21l3.248 1.856a.5.5 0 0 1-.496.868l-3.5-2A.5.5 0 0 1 7 9V3.5a.5.5 0 0 1 .5-.5z" />
                         </svg>
-                        <h4>Prescribe Fast</h4>
-                        <p>it is a long established fact that a reader</p>
+                        <h4 id='chead'>Prescribe Fast</h4>
+                        <p id='cpara'>it is a long established fact that a reader</p>
                     </div>
                 </div>
                 <div className='row2'>
@@ -103,15 +117,15 @@ export default function TabSection() {
                             <path d="M8 2a.5.5 0 0 1 .5.5V4a.5.5 0 0 1-1 0V2.5A.5.5 0 0 1 8 2zM3.732 3.732a.5.5 0 0 1 .707 0l.915.914a.5.5 0 1 1-.708.708l-.914-.915a.5.5 0 0 1 0-.707zM2 8a.5.5 0 0 1 .5-.5h1.586a.5.5 0 0 1 0 1H2.5A.5.5 0 0 1 2 8zm9.5 0a.5.5 0 0 1 .5-.5h1.5a.5.5 0 0 1 0 1H12a.5.5 0 0 1-.5-.5zm.754-4.246a.389.389 0 0 0-.527-.02L7.547 7.31A.91.91 0 1 0 8.85 8.569l3.434-4.297a.389.389 0 0 0-.029-.518z" />
                             <path fill-rule="evenodd" d="M6.664 15.889A8 8 0 1 1 9.336.11a8 8 0 0 1-2.672 15.78zm-4.665-4.283A11.945 11.945 0 0 1 8 10c2.186 0 4.236.585 6.001 1.606a7 7 0 1 0-12.002 0z" />
                         </svg>
-                        <h4>Prescribe Fast</h4>
-                        <p>it is a long established fact that a reader</p>
+                        <h4 id='chead'>Prescribe Fast</h4>
+                        <p id='cpara'>it is a long established fact that a reader</p>
                     </div>
                     <div className='card cardData'>
                         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-person" viewBox="0 0 16 16">
                             <path d="M8 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm2-3a2 2 0 1 1-4 0 2 2 0 0 1 4 0zm4 8c0 1-1 1-1 1H3s-1 0-1-1 1-4 6-4 6 3 6 4zm-1-.004c-.001-.246-.154-.986-.832-1.664C11.516 10.68 10.289 10 8 10c-2.29 0-3.516.68-4.168 1.332-.678.678-.83 1.418-.832 1.664h10z" />
                         </svg>
-                        <h4>Prescribe Fast</h4>
-                        <p>it is a long established fact that a reader</p>
+                        <h4 id='chead'>Prescribe Fast</h4>
+                        <p id='cpara'>it is a long established fact that a reader</p>
                     </div>
                     <div className='card cardData'>
                         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-clock-history" viewBox="0 0 16 16">
@@ -119,8 +133,8 @@ export default function TabSection() {
                             <path d="M8 1a7 7 0 1 0 4.95 11.95l.707.707A8.001 8.001 0 1 1 8 0v1z" />
                             <path d="M7.5 3a.5.5 0 0 1 .5.5v5.21l3.248 1.856a.5.5 0 0 1-.496.868l-3.5-2A.5.5 0 0 1 7 9V3.5a.5.5 0 0 1 .5-.5z" />
                         </svg>
-                        <h4>Prescribe Fast</h4>
-                        <p>it is a long established fact that a reader</p>
+                        <h4 id='chead'>Prescribe Fast</h4>
+                        <p id='cpara'>it is a long established fact that a reader</p>
                     </div>
                 </div>
             </div>)}

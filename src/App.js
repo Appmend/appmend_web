@@ -11,6 +11,7 @@ import Install from "./components/install";
 import InstallSecond from "./components/Install2";
 import TabSection from "./components/Tabs";
 function App() {
+
   return (
     <>
     <Home/>

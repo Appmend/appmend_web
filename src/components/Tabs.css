@@ -19,20 +19,16 @@
 
 .TabDiv2 {
     margin-top: 5%;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
     margin-left: 11%;
-
-
+    
+    
 
 }
 
 .row1 {
     display: flex;
-
-
     flex-direction: row;
+    
 }
 
 .row2 {
@@ -45,8 +41,37 @@
     margin-right: 2%;
     padding: 2%;
     text-align: left;
+
 }
 
+.card {
+    border-color: rgba(225, 228, 235, 1);
+    border: 1px solid #E1E4EB;
+    border-radius: 12px;
+}
+
+#chead {
+    font-family: 'Circular Std';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 32px;
+    letter-spacing: -1.6px;
+    color: #111111;
+
+}
+
+#cpara {
+    font-family: 'Circular Std';
+    font-style: normal;
+    font-weight: 450;
+    font-size: 18px;
+    line-height: 28px;
+    letter-spacing: -0.4px;
+    color: #111111;
+    mix-blend-mode: normal;
+    opacity: 0.5;
+}
 .bi {
     width: 36px;
     height: 36px;
@@ -59,58 +84,113 @@
     margin-top: 2%;
 }
 
-.btn {
+/*new css*/
+
+
+
+li {
+    list-style-type: none;
+}
+
+.switch {
+    display: flex;
+    position: relative;
+    width: 25%;
+    padding: 0.1em;
+    margin: 0 auto;
+    background: linear-gradient(0deg, white, white) no-repeat, #f8f8f8;
+    background-size: 50% 100%;
+    background-position-x: 100%;
+    border: 0.4em solid #f8f8f8;
+    border-radius: 0.4em;
+    transition: all 150ms 0s ease-in-out;
+  }
+  .switch .switch__option:first-child {
+    color: #783bff;
+  }
+  .switch .switch__option:last-child {
+    color: #783bff;
+  }
+  
+  .switch.on {
+    background-position-x: 0;
+  }
+  .switch.on .switch__option:first-child {
+    color: #783bff;
+  }
+  .switch.on .switch__option:last-child {
+    color: #783bff;
+  }
+  
+  .switch__option {
+    display: inline-block;
+    flex-grow: 1;
+    text-align: center;
+    cursor: pointer;
+    transition: all 150ms 150ms ease-in-out;
+  }
+
+/*end of new css*/
+/*.btn {
     margin: 0.3%;
-    width:15%;
+    width: 15%;
     height: 8%;
     font-size: medium;
     background-color: rgba(255, 255, 255, 1);
     color: rgba(120, 59, 255, 1);
-  
-}
+
+}*/
 
 
-@media(max-width:768px){
-    .TabDiv1{
+@media(max-width:768px) {
+    .TabDiv1 {
         font-size: 35px;
         line-height: 40px;
-        
+
     }
 
-   
+
 }
 
 
-@media(max-width:480px){
-    .TabDiv1{
-        font-size:25px;
-        line-height:20px;
+@media(max-width:480px) {
+    .TabDiv1 {
+        font-size: 25px;
+        line-height: 20px;
 
     }
 
-    .row1,.row2{
+    .row1,
+    .row2 {
         display: flex;
         flex-direction: column;
         align-items: center;
     }
 
-    .card{
+    .card {
         width: 65%;
         margin-top: 3%;
     }
 
-    .TabDiv2{
+    .TabDiv2 {
         margin-left: 0%;
     }
 
-    .btn{ 
+    .btn {
         width: 20%;
         font-size: small;
-       
-      }
 
-    
-    
+    }
+
+    .switch{
+        width: 50%;
+        height: 18%;
+        padding: 0.2em;
+        background-size: 50% 100%;
+        border: 0.3em solid #f8f8f8;
+
+    }
+
+
+
 }
-
-    
