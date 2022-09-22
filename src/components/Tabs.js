@@ -5,7 +5,7 @@ import './Tabs.css'
 
 export default function TabSection() {
     const [tab, setTab] = useState(true)
-    const $buttons = document.querySelectorAll('.switch__option');
+    /*const $buttons = document.querySelectorAll('.switch__option');
     const $switch = document.querySelector('.switch');
 
     $buttons[0].addEventListener('click', e => {
@@ -14,7 +14,7 @@ export default function TabSection() {
 
     $buttons[1].addEventListener('click', e => {
         $switch.classList.remove('on');
-    })
+    })*/
 
     return (
         <div className='TabDiv' >
