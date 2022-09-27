@@ -16,14 +16,15 @@
     flex-direction: column;
     margin-top: 10%;
     
+    
 
 }
 
 .TabDiv2 {
     margin-top: 5%;
-    align-self: center;
+    display: flex;
     
-    
+          
 
 }
 
@@ -31,13 +32,15 @@
     display: flex;
     flex-direction: row;
     
+    
+    
 }
 
-.row2 {
+/*.row2 {
     display: flex;
     margin-top: 2%;
     flex-direction: row;
-}
+}*/
 
 .cardData {
     margin-right: 2%;
@@ -50,6 +53,8 @@
     border-color: rgba(225, 228, 235, 1);
     border: 1px solid #E1E4EB;
     border-radius: 12px;
+    width: 20%;
+  
 }
 
 #chead {
@@ -104,7 +109,7 @@ li {
     background-size: 50% 100%;
     background-position-x: 100%;
     border: 0.4em solid #f8f8f8;
-    border-radius: 0.4em;
+    border-radius: 10px;
     transition: all 150ms 0s ease-in-out;
   }
   .switch .switch__option:first-child {
