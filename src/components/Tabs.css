@@ -1,3 +1,5 @@
+
+
 .TabDiv1 {
     font-family: 'Noto Sans', sans-serif;
     font-style: normal;
@@ -9,22 +11,30 @@
     text-align: center;
 }
 
+.Tabtext1 {
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: 520;
+    font-size: 48px;
+    color: #18191F;
+}
+
+
 .TabDiv {
     /* Auto layout */
 
     display: flex;
     flex-direction: column;
     margin-top: 10%;
-    
-    
+
+
 
 }
 
 .TabDiv2 {
     margin-top: 5%;
     display: flex;
-    
-          
+
+
 
 }
 
@@ -32,9 +42,9 @@
     display: flex;
     flex-direction: row;
     justify-content: center;
-    
-    
-    
+
+
+
 }
 
 /*.row2 {
@@ -42,6 +52,9 @@
     margin-top: 2%;
     flex-direction: row;
 }*/
+
+
+/*card css*/
 
 .cardData {
     margin-right: 2%;
@@ -55,7 +68,7 @@
     border: 1px solid #E1E4EB;
     border-radius: 12px;
     width: 20%;
-  
+
 }
 
 #chead {
@@ -80,6 +93,7 @@
     mix-blend-mode: normal;
     opacity: 0.5;
 }
+
 .bi {
     width: 36px;
     height: 36px;
@@ -92,7 +106,7 @@
     margin-top: 2%;
 }
 
-/*new css*/
+/*Tab switchcss*/
 
 
 
@@ -112,33 +126,37 @@ li {
     border: 0.4em solid #f8f8f8;
     border-radius: 10px;
     transition: all 150ms 0s ease-in-out;
-  }
-  .switch .switch__option:first-child {
+}
+
+.switch .switch__option:first-child {
     color: #783bff;
-  }
-  .switch .switch__option:last-child {
+}
+
+.switch .switch__option:last-child {
     color: #783bff;
-  }
-  
-  .switch.on {
+}
+
+.switch.on {
     background-position-x: 0;
-  }
-  .switch.on .switch__option:first-child {
+}
+
+.switch.on .switch__option:first-child {
     color: #783bff;
-  }
-  .switch.on .switch__option:last-child {
+}
+
+.switch.on .switch__option:last-child {
     color: #783bff;
-  }
-  
-  .switch__option {
+}
+
+.switch__option {
     display: inline-block;
     flex-grow: 1;
     text-align: center;
     cursor: pointer;
     transition: all 150ms 150ms ease-in-out;
-  }
+}
 
-/*end of new css*/
+/*end */
 /*.btn {
     margin: 0.3%;
     width: 15%;
@@ -149,11 +167,17 @@ li {
 
 }*/
 
+/*Responsive*/
 
 @media(max-width:768px) {
     .TabDiv1 {
         font-size: 35px;
         line-height: 40px;
+
+    }
+
+    .Tabtext1 {
+        font-size: 32px;
 
     }
 
@@ -165,7 +189,13 @@ li {
     .TabDiv1 {
         font-size: 28px;
         line-height: 20px;
-        
+
+
+    }
+
+    .Tabtext1 {
+        font-size: 30px;
+        line-height: 48px;
 
     }
 
@@ -192,13 +222,13 @@ li {
         margin-left: 0%;
     }
 
-    .btn {
+    /*.btn {
         width: 20%;
         font-size: small;
 
-    }
+    }*/
 
-    .switch{
+    .switch {
         width: 50%;
         height: 18%;
         padding: 0.2em;
@@ -216,7 +246,7 @@ li {
 
 @media(max-width:390px) {
 
-    .TabDiv1{
+    .TabDiv1 {
         font-size: 26px;
 
     }

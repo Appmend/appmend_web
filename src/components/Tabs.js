@@ -22,7 +22,7 @@ export default function TabSection() {
     return (
         <div className='TabDiv' >
             <div className='TabDiv1'>
-                <p >Save time managing social</p><p> media for your business</p>
+                <p className='Tabtext1'>An application tailored for Homoeopathy </p>
             </div>
             <div className='TabDiv3'>
                 <ul class="switch on">
