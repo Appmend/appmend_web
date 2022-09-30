@@ -10,6 +10,8 @@ import Navbar from "./components/Navbar";
 import Install from "./components/install";
 import InstallSecond from "./components/Install2";
 import TabSection from "./components/Tabs";
+import PlanSection from "./components/Plan";
+
 function App() {
 
   return (
@@ -18,6 +20,7 @@ function App() {
     <Install/>
     <InstallSecond/>
     <TabSection/>
+    <PlanSection/>
     <Steps/>
     <Footer/>
 

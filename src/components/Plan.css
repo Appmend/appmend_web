@@ -1,0 +1,128 @@
+
+.plandiv2{
+    margin-top: 5%;
+}
+
+.card1 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 32px;
+    gap: 66px;
+    background: #FFFFFF;
+    border: 1px solid #E1E4EB;
+    border-radius: 24px;
+    width: 25%;
+    margin-left: 3%;
+    
+}
+
+.cdata {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    justify-content: center;
+    padding-bottom: 8%;
+
+}.check2 {
+    width: 14px;
+    height: 14px;
+    
+    color: #783BFF;
+}
+.chead1 {
+    font-family: 'Noto Sans', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 34px;
+    text-align: center;
+    align-self: center;
+    letter-spacing: -0.8px;
+    color: #111111;
+    text-align: center;
+}
+
+hr{
+    color: gray;
+    height: 1px;
+    height: 2px;
+    display: block;
+    width: 96%;
+}
+
+.cdescription {
+    font-family: 'Noto Sans', sans-serif;
+    font-style: normal;
+    font-weight: 450;
+    font-size: 18px;
+    line-height: 28px;
+    text-align: center;
+    letter-spacing: -0.4px;
+    color: #111111;
+    mix-blend-mode: normal;
+    opacity: 0.5;
+}
+
+.cprice {
+    font-family: 'Noto Sans', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 56px;
+    text-align: center;
+    align-self: center;
+    letter-spacing: -2.3px;
+    color: #111111;
+}
+
+.cdescription1 {
+    font-family: 'Noto Sans', sans-serif;
+    font-style: normal;
+    font-weight: 450;
+    font-size: 14px;
+    line-height: 24px;
+    padding-bottom: 5%;
+    text-align: center;
+    align-self: center;
+    letter-spacing: -0.3px;
+    color: #111111;
+    mix-blend-mode: normal;
+    opacity: 0.5;
+
+}
+
+.cdescription2 {
+    font-family: 'Noto Sans', sans-serif;
+    font-style: normal;
+    font-weight: 450;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: -0.355556px;
+    color: #111111;
+}
+.btn {
+    width: 85%;
+    margin-top: auto;
+    font-family: 'Noto Sans', sans-serif;;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    align-self: center;
+    letter-spacing: -0.355556px;
+    color: #783BFF;
+    border: 1px solid #E1E4EB;
+    border-radius: 12px
+    
+    
+}
+
+.row2{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+   
+}
