@@ -126,3 +126,21 @@ hr{
     justify-content: center;
    
 }
+
+
+
+
+
+
+
+@media(max-width:480px) {
+    .row2{
+     flex-direction: column;  
+     
+    }
+
+    .card1{
+        width:50%;
+        margin-bottom:5%;
+    }
+}    
