@@ -216,9 +216,9 @@ li {
     }
 
     #chead {
-        font-family: 'Circular Std';
+        font-family:'Noto Sans', sans-serif;
         font-style: normal;
-        font-weight: 450;
+        font-weight: 550;
         font-size: 20px;
     }
 

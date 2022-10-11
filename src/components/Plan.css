@@ -308,6 +308,7 @@ hr {
     .pswitch{
         margin-right: 0%;
         width: 40%;
+        align-self: center;
     }
 
     .swtch__option {
