@@ -283,7 +283,7 @@ hr {
     .plandiv1 {
         display: flex;
         flex-direction: column;
-        gap: 200px;
+        gap: 180px;
        
     }
     .swtch {
